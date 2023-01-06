@@ -18,7 +18,7 @@ fetch(queryURL)
   });
 function getFiveDay(lat, lon) {
   var queryURL2 =
-    "https://api.openweathermap.org/data/3.0/onecall?lat=" +
+    "https://api.openweathermap.org/data/2.5/forecast?lat=" +
     lat +
     "&lon=" +
     lon +
