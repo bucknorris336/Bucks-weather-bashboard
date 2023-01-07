@@ -14,44 +14,54 @@
       </header>
       <div class="main-content full-height">
         <aside class="sidebar">
-          <h2>Search for City:</h2>
-          <input class="search-input height-1 full-width" type="text" />
-          <button class="centered-content search-btn height-2 full-width">
-            Search
-          </button>
-          <hr />
-          <button class="centered-content search-btn height-2 full-width">
-            Search
-          </button>
-          <button class="centered-content search-btn height-2 full-width">
-            Search
-          </button>
-          <button class="centered-content search-btn height-2 full-width">
-            Search
-          </button>
-          <button class="centered-content search-btn height-2 full-width">
-            Search
-          </button>
-          <button class="centered-content search-btn height-2 full-width">
-            Search
-          </button>
+          <form id="search-form">
+            <h2>Search for City:</h2>
+            <input class="search-input height-1 full-width" type="text" />
+            <button
+              id="submit-btn"
+              type="submit"
+              class="centered-content search-btn height-2 full-width"
+            >
+              Search
+            </button>
+            <hr />
+            <button class="centered-content search-btn height-2 full-width">
+              Search
+            </button>
+            <button class="centered-content search-btn height-2 full-width">
+              Search
+            </button>
+            <button class="centered-content search-btn height-2 full-width">
+              Search
+            </button>
+            <button class="centered-content search-btn height-2 full-width">
+              Search
+            </button>
+            <button class="centered-content search-btn height-2 full-width">
+              Search
+            </button>
+          </form>
         </aside>
         <section>
-          <div class="todays-weather">
+          <div id="weather-contianer"></div>
+          <!-- <div class="todays-weather">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>temp:69%</p>
             <p>temp:69%</p>
             <p>temp:69%</p>
-          </div>
+          </div> -->
           <h3>five day forecast:</h3>
-          <div class="full-width forecast-card-container height-3">
-            <div class="card full-height">
+          <div
+            id="forecast"
+            class="full-width forecast-card-container height-3"
+          >
+            <!-- <div class="card full-height">
               <h5 class="card-title">Title</h5>
               ☀️
               <p class="card-text">Content</p>
               <p class="card-text">Content</p>
               <p class="card-text">Content</p>
-            </div>
+            </div> -->
           </div>
         </section>
       </div>
