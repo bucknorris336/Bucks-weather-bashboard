@@ -67,6 +67,26 @@ $(function () {
         getFiveDay(data.coord.lat, data.coord.lon);
       });
   }
+  // renderLastRegistered();
+
+  // function displayMessage(type, message) {
+  //   msgDiv.textContent = message;
+  //   msgDiv.setAttribute("class", type);
+  // }
+
+  // function renderLastRegistered() {
+  //   var city = localStorage.getItem("city");
+  //   var _____ = localStorage.getItem("_____");
+
+  //   if (!city || !_____) {
+  //     return;
+  //   }
+  // if (city === "") {
+  //   displayMessage("error", "City cannot be blank");
+  // }
+  // localStorage.setItem("city", city);
+  // localStorage.setItem("____", ____);
+  // renderLastRegistered();
 
   $("#submit-btn").on("click", function (event) {
     event.preventDefault();
