@@ -51,6 +51,13 @@ function fetchWeather(location) {
       console.error(err);
     });
 }
+//function to get the 5 day forecast 
+function renderForecast(data) {
+  var weather = data.list;
+  for (var i = i; i < 5; i++) {
+    weather[i];
+  }
+}
 
 function renderCurrentWeather(data) {
   var weather = data.list[0];
