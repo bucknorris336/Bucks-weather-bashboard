@@ -83,10 +83,14 @@ hr {
 }
 .card {
   color: white;
+  text-align: center;
   padding: 5px;
-  background: #444;
-  width: 100px;
+  background: rgb(151, 195, 240);
+  width: 104px;
 }
 .forecast-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   height: 200px;
 }

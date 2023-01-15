@@ -1,60 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather Dashboard</title>
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
-  <body>
-    <main>
-      <header class="centered-content full-width height-3 gradient-1">
-        <h1 class="title">Weather Dashboard</h1>
-      </header>
-      <div class="main-content full-height">
-        <aside class="sidebar">
-          <form id="search-form">
-            <h2>Search for City:</h2>
-            <input class="search-input height-1 full-width" type="text" />
-            <button
-              id="submit-btn"
-              type="submit"
-              class="centered-content search-btn height-2 full-width"
-            >
-              Search
-            </button>
-          </form>
-          <div id="history"></div>
-        </aside>
-        <section>
-          <div id="weather-container"></div>
-
-          <h3>Five Day Forecast:</h3>
-          <div
-            id="forecast"
-            class="full-width forecast-card-container height-3"
-          ></div>
-        </section>
-      </div>
-    </main>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"
-      integrity="sha512-0fcCRl828lBlrSCa8QJY51mtNqTcHxabaXVLPgw/jPA5Nutujh6CbTdDgRzl9aSPYW/uuE7c4SffFUQFBAy6lg=="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/utc.min.js"
-      integrity="sha512-m00bfmYnAl3plEBlQfeQUhw/U2uvmw29V2+jxSWpAjankMWS+zAsjezbKWDEJNXqWq9o9qQZSOiA2RKDpa4D5w=="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/timezone.min.js"
-      integrity="sha512-pslqxxHAYPCxaSeFSmXXxDkLejD5dbFVC66aiVq0z4v7VTJBU+wqcG1OpNh4p3MjS2D6NCwz/H2QmSc7dXxryg=="
-      crossorigin="anonymous" -->
-    ></script>
-    <script src="./assets/js/file.js"></script>
-  </body>
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Weather Dashboard</title>
+   <link rel="stylesheet" href="assets/style.css" />
+ </head>
+ <body>
+   <main>
+     <header class="centered-content full-width height-3 gradient-1">
+       <h1 class="title">Weather Dashboard</h1>
+     </header>
+     <div class="main-content full-height">
+       <aside class="sidebar">
+         <form id="search-form">
+          <!-- Search City button  -->
+           <h2>Search for City:</h2>
+           <input class="search-input height-1 full-width" type="text" />
+           <button
+             id="submit-btn"
+             type="submit"
+             class="centered-content search-btn height-2 full-width"
+           >
+             Search
+           </button>
+         </form>
+         <div id="history"></div>
+       </aside>
+       <section>
+         <div id="weather-container"></div>
+ 
+         <h3>Five Day Forecast:</h3>
+         <div
+           id="forecast"
+           class="full-width forecast-card-container height-3"
+         ></div>
+       </section>
+     </div>
+   </main>
+ 
+   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+   <script>
+     dayjs().format();
+   </script>
+   <script src="./assets/js/script.js"></script>
+ </body>
 </html>
